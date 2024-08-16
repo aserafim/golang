@@ -8,4 +8,5 @@ import (
 func main() {
 	fmt.Println("Testando funcionamento do módulo.")
 	auxiliar.Escrever()
+
 }
