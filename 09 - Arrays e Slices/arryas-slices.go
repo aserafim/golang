@@ -37,4 +37,18 @@ func main() {
 	//ponteiros para o array de origem
 	slc2 := arr3[1:3]
 	fmt.Println(slc2)
+
+	//Arrays internos
+	//a função make
+	//cria um array e
+	//retorna pra nós apenas a fatia(slice)
+	//que criamos
+	fmt.Println("------------------")
+	slc3 := make([]float32, 10, 11)
+	fmt.Println(slc3)
+	fmt.Println(len(slc3))
+	fmt.Println(cap(slc3))
+	slc3 = append(slc3, 18)
+	slc3 = append(slc3, 8)
+	fmt.Println(cap(slc3))
 }
