@@ -27,4 +27,11 @@ func main() {
 	inverteSinalComPonteiro(&numeroDois)
 	fmt.Println("Após a função: ", numeroDois)
 
+	var num float32
+	num = 32.5
+	fmt.Println(num)
+
+	fmt.Println(&num)
+	fmt.Println(*&num)
+
 }
