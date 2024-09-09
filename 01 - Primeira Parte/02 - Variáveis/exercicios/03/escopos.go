@@ -14,12 +14,12 @@ func variaveis() {
 }
 
 func variaveisDois() {
-	fmt.Println(a)
+	//fmt.Println(a)
 }
 
 func main() {
 
 	fmt.Println("Escopo de variáveis")
 
-	fmt.Println(a)
+	//fmt.Println(a)
 }
