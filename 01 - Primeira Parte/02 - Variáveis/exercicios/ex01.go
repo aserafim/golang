@@ -25,4 +25,9 @@ func main() {
 	texto := "Texto"
 	fmt.Println(texto)
 
+	a := 3
+	b := 4
+
+	fmt.Println(a, b)
+
 }
