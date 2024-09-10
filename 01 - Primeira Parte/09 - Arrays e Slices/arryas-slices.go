@@ -17,7 +17,7 @@ func main() {
 	array2 := [2]string{"Talita", "Felip"}
 	fmt.Println(array2)
 
-	//Criando um array sem declara
+	//Criando um array sem declarar
 	//o tamanho
 	arr3 := [...]int{1, 2, 3, 4}
 	fmt.Println(arr3)
